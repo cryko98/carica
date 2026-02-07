@@ -43,7 +43,7 @@ export default function App() {
   const [copyButtonText, setCopyButtonText] = useState<string>('Copy CA');
 
   const contractAddress = 'CA: xxxxxxxxxxxxxxxxxxxxxxxx';
-  const promptText = "Create a caricature of me and my job based on everything you know about me. Also, please generate and send an image of yourself.";
+  const promptText = "Create a caricature of me and my job based on everything you know about me.";
 
   const handleRedirect = () => {
     const encodedPrompt = encodeURIComponent(promptText);
@@ -94,7 +94,7 @@ export default function App() {
         </div>
 
         <p className="text-xl sm:text-2xl mt-8 mb-6 text-ink max-w-lg font-bold">
-          Click the button, send the prompt to ChatGPT, and see what it draws up! 
+          Click the button, send the prompt to ChatGPT, and see what it draws up! Also, ask it to generate and send an image of itself.
         </p>
 
         <button 
