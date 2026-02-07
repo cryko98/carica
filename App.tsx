@@ -94,7 +94,7 @@ export default function App() {
         </div>
 
         <p className="text-xl sm:text-2xl mt-8 mb-6 text-ink max-w-lg font-bold">
-          Click the button, send the prompt to ChatGPT, and see what it draws up! Also, ask it to generate and send an image of itself.
+          Click the button to send the prompt to ChatGPT. Don't forget to also send it a picture of yourself to get your caricature!
         </p>
 
         <button 
